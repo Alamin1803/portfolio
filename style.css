@@ -2,6 +2,73 @@
     margin: 0;
     padding: 0;
 }
+.banner-section{
+    background-image: url(./image/top-banner.png);
+    background-repeat: no-repeat;
+    
+}
 .banner-section-1{
-    background-image: url(./image/top-banner.png)
+    margin: 0 auto;
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+}
+.banner-section-1-left{
+    padding-top:3rem ;
+    width: 50%;
+}
+.banner-section-1-left h1{
+    font-size: 2.9rem;
+    line-height: 5rem;
+    margin-bottom: 30px;
+}
+.banner-section-1-left h1 span{
+    color: orange;
+    line-height: 2rem;
+}
+.banner-section-1-left p{
+    text-align: justify;
+    line-height: 1.2rem;
+    font-size: 1.2rem;
+    padding: 10px 40px 20px 0px ;
+    font-weight: 400;
+}
+.banner-section-1-left button{
+    background-image: linear-gradient(rgba(250, 169, 18, 0.979),rgb(250, 167, 12));
+    color: white;
+    font-weight: 700;
+    padding: 0.5rem 0.9rem;
+    outline: none;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.banner-section-1-left button:hover{
+    background-image: linear-gradient(rgba(136, 103, 42, 0.979),rgba(250, 167, 12, 0.623));
+    font-weight: 800;
+    transform: translateX(1);
+    transition: cubic-bezier(0.19, 1, 0.22, 1) 0.1s;
+}
+.banner-section-1-right{
+ margin: 0 auto;
+padding: 0.8rem;
+width: 50%;
+}
+.circle{
+    width: 85%;
+    background-image: url(./image/my-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+}
+.circle img{
+    position: relative;
+    bottom: 1.8rem;
+    left: 2.3rem;
+    overflow: hidden;
+}
+#banner-section-dream{
+    background-image: url(./image/exp-bg.png) !important ;
+    background-repeat: no-repeat;
+    
 }
