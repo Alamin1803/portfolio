@@ -1,0 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.banner-section-1{
+    background-image: url(./image/top-banner.png)
+}
